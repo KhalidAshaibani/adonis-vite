@@ -13,9 +13,9 @@ If you are integrating this package in an existing project, you can remove webpa
 #### Install using your package manager:
 
 ```sh
-npm install --save @91codes/adonis-vite
+npm install --save @khalidashaibani/adonis-vite
 # or
-yarn add @91codes/adonis-vite
+yarn add @khalidashaibani/adonis-vite
 ```
 
 #### Please note that you need to install Vite separately.
@@ -29,7 +29,7 @@ yarn add -D vite
 #### Add the Vite provider to `.adonisrc.json`
 
 ```sh
-node ace configure @91codes/adonis-vite
+node ace configure @khalidashaibani/adonis-vite
 ```
 
 #### Create a `vite.config.ts`
@@ -39,7 +39,7 @@ You can start with the following. Feel free to customise it to your needs. You d
 ```ts
 import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
-import adonis from '@91codes/adonis-vite/build/plugins/adonis'
+import adonis from '@khalidashaibani/adonis-vite/build/plugins/adonis'
 
 export default defineConfig({
 	plugins: [
