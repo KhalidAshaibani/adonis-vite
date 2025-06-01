@@ -1,10 +1,10 @@
 {
-	"name": "@91codes/adonis-vite",
+	"name": "@khalidashaibani/adonis-vite",
 	"version": "0.3.2",
 	"main": "build/providers/ViteProvider.js",
 	"license": "MIT",
-	"homepage": "https://github.com/91codes/adonis-vite#readme",
-	"repository": "github:91codes/adonis-vite",
+	"homepage": "https://github.com/khalidashaibani/adonis-vite#readme",
+	"repository": "github:khalidashaibani/adonis-vite",
 	"scripts": {
 		"mrm": "mrm --preset=@adonisjs/mrm-preset",
 		"pretest": "npm run lint",
@@ -81,7 +81,7 @@
 	],
 	"adonisjs": {
 		"providers": [
-			"@91codes/adonis-vite"
+			"@khalidashaibani/adonis-vite"
 		]
 	}
 }
