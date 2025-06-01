@@ -1,6 +1,6 @@
 {
 	"name": "@khalidashaibani/adonis-vite",
-	"version": "0.3.2",
+	"version": "0.3.3",
 	"main": "build/providers/ViteProvider.js",
 	"license": "MIT",
 	"homepage": "https://github.com/khalidashaibani/adonis-vite#readme",
